@@ -1,0 +1,19 @@
+PYTHON TASK
+
+TOPIC : SCRAPING THE URLS 
+
+step 1: imported the required packages like pandas, bs4, requets etc..
+
+step 2: Read the csv(Amazon Scraping - Sheet1.csv) file from the given folder.
+
+step 3: Cleaned the data like 
+
+step 4: Since the links created is not forwarding  to the direct product page, we 1st search the link in google seacrh and then we fetched the direct product page link.
+
+step 5: If  a page throws an 404 error, then it will be marked as url not found
+
+step 6: Then after fetching the direct product link, product title, product price, product details and product image url was scraped using beautifulsoup
+
+step 7: Created a DataFrame and stored the scraped information in that DataFrame.
+
+step 8: Then finally the out is stored in the json file. (main task.json)
